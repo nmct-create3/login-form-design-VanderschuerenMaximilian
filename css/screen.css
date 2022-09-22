@@ -484,9 +484,25 @@ input {
     Class to put on all input="text" like form inputs
 */
 
-.c-input {}
+.c-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E2E3E7;
+    border-radius: 3px;
+    font-family: "Inter Web", sans-serif;
+    line-height: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+}
 
-.c-input:focus {}
+.c-input:focus {
+    
+}
 
 /*
     Component: Label
