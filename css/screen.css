@@ -498,10 +498,13 @@ input {
     padding-top: 11px;
     padding-bottom: 11px;
     padding-left: 16px;
+    outline: none;
 }
 
 .c-input:focus {
-    
+    border-color: #3385FF;
+    box-shadow: 0 0 0 3px #4F95FF4a;
+    /* box-shadow: 0 0 0 3px rgba(51, 133, 255, .3); */ /* tweede manier*/
 }
 
 /*
@@ -522,13 +525,34 @@ input {
     Class to put on form buttons or links
 */
 
-.c-button {}
+.c-button {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #3385FF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2E77E6;
+    border-radius: 3px;
+    line-height: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    outline: none;
+    transition: all .1s ease;
+}
 
-.c-button:hover {}
+.c-button:hover {
+    background-color: #4F95FF;
+}
 
-.c-button:focus {}
+.c-button:focus {
+    background-color: #3385FF;
+    box-shadow: 0 0 0 3px rgba(51, 133, 255, .49);
+}
 
-.c-button:active {}
+.c-button:active {
+    background-color: #2E77E6;
+}
 
 .c-button--block {}
 
