@@ -44,12 +44,6 @@ html {
 * Customize the background color to match your design.
 */
 
-::-moz-selection {
-    background: #3385FF;
-    color: white;
-    text-shadow: none;
-}
-
 ::selection {
     background: #3385FF;
     color: white;
@@ -156,18 +150,18 @@ hr {
 }
 
 a {
-    /* color: HotPink; */
+    color: #3385FF;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    /* color: HotPink; */
+    color: #3385FF;
 }
 
 a:hover,
 a:focus {
-    /* color: DeepPink; */
+    color: #1B4186;
 }
 
 /*------------------------------------*\
