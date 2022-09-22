@@ -156,18 +156,18 @@ hr {
 }
 
 a {
-    color: HotPink;
+    /* color: HotPink; */
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: HotPink;
+    /* color: HotPink; */
 }
 
 a:hover,
 a:focus {
-    color: DeepPink;
+    /* color: DeepPink; */
 }
 
 /*------------------------------------*\
