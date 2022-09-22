@@ -469,7 +469,7 @@ input {
 */
 .c-card {
     background-color: #FFFFFF;
-    height: 530px;
+    min-height: 530px;
     border-radius: 3px;
 }
 
@@ -538,7 +538,12 @@ input {
     Class to put on all form labels
 */
 
-.c-label {}
+.c-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: #606274;
+}
 
 /* If a input is focused within the form-field class change te color of the label */
 
